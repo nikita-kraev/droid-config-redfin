@@ -7,6 +7,12 @@
 %define vendor_pretty Google
 %define device_pretty Pixel 5
 
+%define android_version_major 16
+
+Provides: ofono-configs
+Obsoletes: ofono-configs-mer
+Obsoletes: ofono-configs-binder
+
 # Community HW adaptations need this
 %define community_adaptation 1
 
@@ -22,4 +28,3 @@
 # IMPORTANT if you want to comment out any macros in your .spec, delete the %
 # sign, otherwise they will remain defined! E.g.:
 #define some_macro "I'll not be defined because I don't have % in front"
-

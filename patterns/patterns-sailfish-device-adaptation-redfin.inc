@@ -7,7 +7,7 @@ Requires: droid-hal-redfin
 Requires: droid-hal-redfin-img-boot
 Requires: droid-hal-redfin-kernel-modules
 Requires: droid-config-redfin-sailfish
-Requires: droid-config-redfin-pulseaudio-settings
+# Requires: droid-config-redfin-pulseaudio-settings
 Requires: droid-config-redfin-policy-settings
 Requires: droid-config-redfin-preinit-plugin
 Requires: droid-config-redfin-flashing
@@ -29,8 +29,8 @@ Requires: libngf-qt5-qtfeedback
 # Needed for /dev/touchscreen symlink
 Requires: qt5-plugin-generic-evdev
 
-Requires: pulseaudio-modules-droid
-Requires: pulseaudio-modules-droid-hidl
+# Requires: pulseaudio-modules-droid
+# Requires: pulseaudio-modules-droid-hidl
 
 # The -dummy-af is needed for newer devices that run the main
 # audiosystem-passthrough in qti mode (e.g. >=Android 9 Qualcomm),
@@ -46,7 +46,7 @@ Requires: qt5-qpa-hwcomposer-plugin
 Requires: qtscenegraph-adaptation
 
 # For hybris devices with droidmedia, see HADK pdf for more information
-Requires: gstreamer1.0-droid
+# Requires: gstreamer1.0-droid
 Requires: gmp-droid
 
 # This is needed for notification LEDs
